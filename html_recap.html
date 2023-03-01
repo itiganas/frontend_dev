@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> <title>HTML recap</title></head>
-<body>
+<head>
+	<title>HTML recap</title>
+<!--Add favicon -->
+	<link href="favicon.jpeg">
+<style>
+tr:hover {background-color: #D6EEEE;}
+</style>
+</head>
+
+<body style="background-image:url('back.jpg'); background-size: cover; border: 2px solid powderblue; padding: 20px; margin: 15px">
 <ul>
 <li><h1>Headings, Paragraphs</h1>
 <h1>Heading 1</h1>
@@ -36,22 +44,48 @@
 <button onclick="document.location='https://profile.w3schools.com/refresh-session?redirect_url=https%3A%2F%2Fwww.w3schools.com%2Fhtml%2F'" title="W3school tutorial" button-color:green;>This is a button as a link to HTML Tutorial</button> <br>
 
 <li><h1>Images</h1>
-<img src="smile.jpg" alt="Smile"> <br>
 <p>Below is an image as a link</p>
 <a href="https://profile.w3schools.com/refresh-session?redirect_url=https%3A%2F%2Fwww.w3schools.com%2Fhtml%2F">
 	<img src="smile.jpg" alt="html tutorial" title="html tutorial">
-</a>
-<p><img src="smile.jpg" alt="Smile" style="float:right">Use the CSS float property to let the image float to the right</p> 
+</a><br><br><br><br><br><br>
+<p><img src="smile.jpg" alt="Smile" style="float:right">Use the CSS float property to let the image float to the right</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<p>Workmap - image below has clickable areas - try to click on laptop for ex</p>
-<br><img src="office.jpg" alt="Workplace" usemap="#workmap">
+<p><strong>Workmap</strong> - image below has clickable areas - try to click on laptop for ex</p>
+<br><img src="office.jpg" alt="Workplace" usemap="#workmap" style="width:100%">
 	<map name="workmap">
 		<area shape="rect" coords="100,100,200,250" alt="Computer" href="https://cdn.britannica.com/77/170477-050-1C747EE3/Laptop-computer.jpg" target="_blank">
 		<area shape="circle" coords="200,30,30" alt="Computer" href="https://www.thespruce.com/thmb/mJjTRS-W8v0odfOvOXcDU3fSp2Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/succulents-1402043-hero-17719e8ed83f41a5bd0ba84f35f4beb9.jpg" target="_blank"> 
 		<area shape="circle" coords="130,30,30" alt="Computer" href="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/270202_2200-800x1200.jpg" target="_blank">
 	</map>
 
-<li><h1>Images</h1>
+<li><h1>Tables</h1>
+<table style="border-color:#96D4D4; border-style:inset; width:50%">
+<caption style="color:black"><strong>Movies<strong></caption>
+<tr style="border-color:#96D4D4; border-style:inset; height:40px">
+	<th style="border-color:#96D4D4; border-style:inset; text-align:center">Movie</th>
+	<th style="border-color:#96D4D4; border-style:inset; text-align:center">Year</th>
+	<th style="border-color:#96D4D4; border-style:inset; text-align:center">Rank</th>
+</tr>
+<tr style="text-align:center">
+	<td>Avatar</td>
+	<td>2009</td>
+	<td>1</td>
+</tr>
+<tr style="text-align:center">
+	<td>Avengers</td>
+	<td>2019</td>
+	<td>2</td>
+</tr>
+<tr style="text-align:center">
+	<td>Titanic</td>
+	<td>1997</td>
+	<td>4</td>
+</tr>
+</table>
+
+
+<li><h1>Lists</h1>
+
 
 
 </body>
